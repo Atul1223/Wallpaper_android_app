@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
     private CategoryRVAdapter categoryRVAdapter;
     private WallpaperRVAdapter wallpaperRVAdapter;
     protected int a;
-    //563492ad6f91700001000001f1af712ceda34e8da09e85ee3faac1cd
+   
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String,String> headers=new HashMap<>();
-                headers.put("Authorization","563492ad6f91700001000001f1af712ceda34e8da09e85ee3faac1cd");
+                headers.put("Authorization","YOUR API KEY FROM PEXEL");
                 return headers;
             }
         };
@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity implements CategoryRVAdapter
             @Override
             public Map<String, String> getHeaders() throws AuthFailureError {
                 HashMap<String,String> headers=new HashMap<>();
-                headers.put("Authorization","563492ad6f91700001000001f1af712ceda34e8da09e85ee3faac1cd");
+                headers.put("Authorization","YOUR API KEY FROM PEXEL");
                 return headers;
             }
         };
